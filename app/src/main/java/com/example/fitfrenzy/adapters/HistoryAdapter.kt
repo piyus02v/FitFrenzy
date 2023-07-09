@@ -1,11 +1,11 @@
-package com.anibalventura.t7minutesworkout.adapters
+package com.example.fitfrenzy.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.anibalventura.t7minutesworkout.data.models.HistoryModel
-import com.anibalventura.t7minutesworkout.databinding.RecyclerviewHistoryBinding
+import com.example.fitfrenzy.data.models.HistoryModel
+import com.example.fitfrenzy.databinding.RecyclerviewHistoryBinding
 
 class HistoryAdapter : RecyclerView.Adapter<HistoryAdapter.MyViewHolder>() {
 

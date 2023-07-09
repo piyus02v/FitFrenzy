@@ -1,4 +1,4 @@
-package com.anibalventura.t7minutesworkout.adapters
+package com.example.fitfrenzy.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import android.widget.TextView
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.anibalventura.t7minutesworkout.R
-import com.anibalventura.t7minutesworkout.data.models.ExerciseModel
+import com.example.fitfrenzy.R
+import com.example.fitfrenzy.data.models.ExerciseModel
 import kotlinx.android.synthetic.main.recyclerview_exercise_status.view.*
 
 class ExerciseStatusAdapter(

@@ -1,13 +1,13 @@
-package com.anibalventura.t7minutesworkout.data.viewmodel
+package com.example.fitfrenzy.data.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.anibalventura.t7minutesworkout.App
-import com.anibalventura.t7minutesworkout.R
-import com.anibalventura.t7minutesworkout.utils.Constants.METRICS_UNITS_VIEW
-import com.anibalventura.t7minutesworkout.utils.Constants.US_UNITS_VIEW
+import com.example.fitfrenzy.App
+import com.example.fitfrenzy.R
+import com.example.fitfrenzy.utils.Constants.METRICS_UNITS_VIEW
+import com.example.fitfrenzy.utils.Constants.US_UNITS_VIEW
 import java.math.BigDecimal
 import java.math.RoundingMode
 import kotlin.properties.Delegates

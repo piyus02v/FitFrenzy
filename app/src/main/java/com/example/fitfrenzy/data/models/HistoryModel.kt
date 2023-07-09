@@ -1,4 +1,4 @@
-package com.anibalventura.t7minutesworkout.data.models
+package com.example.fitfrenzy.data.models
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

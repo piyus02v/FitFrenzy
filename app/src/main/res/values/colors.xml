@@ -3,7 +3,9 @@
     <color name="primaryColor">#25B7D3</color>
     <color name="primaryDarkColor">#25B7D3</color>
     <color name="primaryTextColor">#FFFFFF</color>
-    <color name="secondaryTextColor">#151515</color>
+    <color name="secondaryTextColor">#000000</color>
     <color name="iconColor">#353535</color>
     <color name="backgroundColor">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#F5F5F5</color>
 </resources>

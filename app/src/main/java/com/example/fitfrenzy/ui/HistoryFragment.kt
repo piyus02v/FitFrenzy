@@ -1,4 +1,4 @@
-package com.anibalventura.t7minutesworkout.ui
+package com.example.fitfrenzy.ui
 
 import android.os.Bundle
 import android.view.*
@@ -9,11 +9,11 @@ import androidx.recyclerview.widget.RecyclerView
 import com.afollestad.materialdialogs.LayoutMode
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.bottomsheets.BottomSheet
-import com.anibalventura.t7minutesworkout.R
-import com.anibalventura.t7minutesworkout.adapters.HistoryAdapter
-import com.anibalventura.t7minutesworkout.data.viewmodel.HistoryViewModel
-import com.anibalventura.t7minutesworkout.databinding.FragmentHistoryBinding
-import com.anibalventura.t7minutesworkout.utils.snackBarMsg
+import com.example.fitfrenzy.R
+import com.example.fitfrenzy.adapters.HistoryAdapter
+import com.example.fitfrenzy.data.viewmodel.HistoryViewModel
+import com.example.fitfrenzy.databinding.FragmentHistoryBinding
+import com.example.fitfrenzy.utils.snackBarMsg
 import jp.wasabeef.recyclerview.animators.LandingAnimator
 
 class HistoryFragment : Fragment() {

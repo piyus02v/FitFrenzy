@@ -1,4 +1,4 @@
-package com.anibalventura.t7minutesworkout.ui
+package com.example.fitfrenzy.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,13 +6,13 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import com.anibalventura.t7minutesworkout.R
-import com.anibalventura.t7minutesworkout.data.viewmodel.BmiViewModel
-import com.anibalventura.t7minutesworkout.databinding.FragmentBmiBinding
-import com.anibalventura.t7minutesworkout.utils.Constants.METRICS_UNITS_VIEW
-import com.anibalventura.t7minutesworkout.utils.Constants.US_UNITS_VIEW
-import com.anibalventura.t7minutesworkout.utils.hideKeyboard
-import com.anibalventura.t7minutesworkout.utils.snackBarMsg
+import com.example.fitfrenzy.R
+import com.example.fitfrenzy.data.viewmodel.BmiViewModel
+import com.example.fitfrenzy.databinding.FragmentBmiBinding
+import com.example.fitfrenzy.utils.Constants.METRICS_UNITS_VIEW
+import com.example.fitfrenzy.utils.Constants.US_UNITS_VIEW
+import com.example.fitfrenzy.utils.hideKeyboard
+import com.example.fitfrenzy.utils.snackBarMsg
 
 class BmiFragment : Fragment() {
 

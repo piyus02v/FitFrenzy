@@ -1,4 +1,4 @@
-package com.anibalventura.t7minutesworkout.adapters
+package com.example.fitfrenzy.adapters
 
 import android.view.View
 import androidx.databinding.BindingAdapter

@@ -7,11 +7,11 @@
 
         <variable
             name="bmiFragment"
-            type="com.anibalventura.t7minutesworkout.ui.BmiFragment" />
+            type="com.example.fitfrenzy.ui.BmiFragment" />
 
         <variable
             name="bmiViewModel"
-            type="com.anibalventura.t7minutesworkout.data.viewmodel.BmiViewModel" />
+            type="com.example.fitfrenzy.data.viewmodel.BmiViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

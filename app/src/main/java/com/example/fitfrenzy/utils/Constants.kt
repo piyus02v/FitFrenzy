@@ -1,6 +1,6 @@
 @file:Suppress("BooleanLiteralArgument")
 
-package com.anibalventura.t7minutesworkout.utils
+package com.example.fitfrenzy.utils
 
 object Constants {
 

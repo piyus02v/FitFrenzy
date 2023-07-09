@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">7 Minutes Workout</string>
+    <string name="app_name" translatable="false">Fit Frenzy</string>
     <string name="home_logo_description">Home Logo</string>
     <string name="home_btn_start">Start</string>
     <string name="progress_bar_get_ready">GET READY FOR</string>

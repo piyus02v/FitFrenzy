@@ -1,4 +1,4 @@
-package com.anibalventura.t7minutesworkout.ui
+package com.example.fitfrenzy.ui
 
 import android.media.MediaPlayer
 import android.os.Bundle
@@ -15,11 +15,11 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.afollestad.materialdialogs.LayoutMode
 import com.afollestad.materialdialogs.MaterialDialog
 import com.afollestad.materialdialogs.bottomsheets.BottomSheet
-import com.anibalventura.t7minutesworkout.R
-import com.anibalventura.t7minutesworkout.adapters.ExerciseStatusAdapter
-import com.anibalventura.t7minutesworkout.data.models.ExerciseModel
-import com.anibalventura.t7minutesworkout.data.models.Exercises.getExercises
-import com.anibalventura.t7minutesworkout.databinding.FragmentExerciseBinding
+import com.example.fitfrenzy.R
+import com.example.fitfrenzy.adapters.ExerciseStatusAdapter
+import com.example.fitfrenzy.data.models.ExerciseModel
+import com.example.fitfrenzy.data.models.Exercises.getExercises
+import com.example.fitfrenzy.databinding.FragmentExerciseBinding
 import java.util.*
 
 class ExerciseFragment : Fragment(), TextToSpeech.OnInitListener {

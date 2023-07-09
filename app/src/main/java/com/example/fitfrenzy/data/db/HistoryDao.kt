@@ -1,11 +1,11 @@
-package com.anibalventura.t7minutesworkout.data.db
+package com.example.fitfrenzy.data.db
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.anibalventura.t7minutesworkout.data.models.HistoryModel
+import com.example.fitfrenzy.data.models.HistoryModel
 
 @Dao
 interface HistoryDao {

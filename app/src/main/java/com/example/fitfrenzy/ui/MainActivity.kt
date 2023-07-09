@@ -1,4 +1,4 @@
-package com.anibalventura.t7minutesworkout.ui
+package com.example.fitfrenzy.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.ActionBar
@@ -11,8 +11,8 @@ import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
-import com.anibalventura.t7minutesworkout.R
-import com.anibalventura.t7minutesworkout.databinding.ActivityMainBinding
+import com.example.fitfrenzy.R
+import com.example.fitfrenzy.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
             val toolBar = supportActionBar ?: return@addOnDestinationChangedListener
 
             binding.toolbar.setBackgroundColor(
-                ActivityCompat.getColor(this, R.color.backgroundColor)
+                ActivityCompat.getColor(this, R.color.secondaryTextColor)
             )
             this.window.navigationBarColor = ActivityCompat.getColor(this, R.color.primaryColor)
             this.window.statusBarColor = ActivityCompat.getColor(this, R.color.primaryColor)

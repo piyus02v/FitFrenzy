@@ -1,4 +1,4 @@
-package com.anibalventura.t7minutesworkout.utils
+package com.example.fitfrenzy.utils
 
 import android.app.Activity
 import android.content.Context

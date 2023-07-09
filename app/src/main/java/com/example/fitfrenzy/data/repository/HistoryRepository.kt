@@ -1,8 +1,8 @@
-package com.anibalventura.t7minutesworkout.data.repository
+package com.example.fitfrenzy.data.repository
 
 import androidx.lifecycle.LiveData
-import com.anibalventura.t7minutesworkout.data.db.HistoryDao
-import com.anibalventura.t7minutesworkout.data.models.HistoryModel
+import com.example.fitfrenzy.data.db.HistoryDao
+import com.example.fitfrenzy.data.models.HistoryModel
 
 class HistoryRepository(private val historyDao: HistoryDao) {
 

@@ -6,7 +6,7 @@
 
         <variable
             name="home"
-            type="com.anibalventura.t7minutesworkout.ui.HomeFragment" />
+            type="com.example.fitfrenzy.ui.HomeFragment" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -17,10 +17,9 @@
             android:id="@+id/ivHomeLogo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
+
             android:contentDescription="@string/home_logo_description"
-            android:src="@drawable/home_logo"
+            android:src="@drawable/fitfrenzynew"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

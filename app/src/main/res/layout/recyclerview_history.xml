@@ -7,7 +7,7 @@
 
         <variable
             name="historyModel"
-            type="com.anibalventura.t7minutesworkout.data.models.HistoryModel" />
+            type="com.example.fitfrenzy.data.models.HistoryModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

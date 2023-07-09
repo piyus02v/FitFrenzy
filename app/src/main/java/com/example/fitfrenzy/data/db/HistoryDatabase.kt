@@ -1,10 +1,10 @@
-package com.anibalventura.t7minutesworkout.data.db
+package com.example.fitfrenzy.data.db
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.anibalventura.t7minutesworkout.data.models.HistoryModel
+import com.example.fitfrenzy.data.models.HistoryModel
 
 @Database(entities = [HistoryModel::class], version = 1, exportSchema = false)
 abstract class HistoryDatabase : RoomDatabase() {

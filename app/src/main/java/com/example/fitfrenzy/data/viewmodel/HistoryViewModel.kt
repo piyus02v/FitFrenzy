@@ -1,13 +1,13 @@
-package com.anibalventura.t7minutesworkout.data.viewmodel
+package com.example.fitfrenzy.data.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
-import com.anibalventura.t7minutesworkout.data.db.HistoryDatabase
-import com.anibalventura.t7minutesworkout.data.models.HistoryModel
-import com.anibalventura.t7minutesworkout.data.repository.HistoryRepository
+import com.example.fitfrenzy.data.db.HistoryDatabase
+import com.example.fitfrenzy.data.models.HistoryModel
+import com.example.fitfrenzy.data.repository.HistoryRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat

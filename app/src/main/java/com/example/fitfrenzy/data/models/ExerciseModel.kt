@@ -1,7 +1,7 @@
-package com.anibalventura.t7minutesworkout.data.models
+package com.example.fitfrenzy.data.models
 
-import com.anibalventura.t7minutesworkout.App
-import com.anibalventura.t7minutesworkout.R
+import com.example.fitfrenzy.App
+import com.example.fitfrenzy.R
 
 data class ExerciseModel(
     private var id: Int,

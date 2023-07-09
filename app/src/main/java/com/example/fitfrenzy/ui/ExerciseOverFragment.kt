@@ -1,4 +1,4 @@
-package com.anibalventura.t7minutesworkout.ui
+package com.example.fitfrenzy.ui
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,9 +7,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.anibalventura.t7minutesworkout.R
-import com.anibalventura.t7minutesworkout.data.viewmodel.HistoryViewModel
-import com.anibalventura.t7minutesworkout.databinding.FragmentExerciseOverBinding
+import com.example.fitfrenzy.R
+import com.example.fitfrenzy.data.viewmodel.HistoryViewModel
+import com.example.fitfrenzy.databinding.FragmentExerciseOverBinding
 
 class ExerciseOverFragment : Fragment() {
 

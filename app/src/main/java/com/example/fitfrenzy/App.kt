@@ -1,4 +1,4 @@
-package com.anibalventura.t7minutesworkout
+package com.example.fitfrenzy
 
 import android.app.Application
 import android.content.res.Resources

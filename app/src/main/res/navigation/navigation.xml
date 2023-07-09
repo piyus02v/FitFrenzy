@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.anibalventura.t7minutesworkout.ui.HomeFragment"
+        android:name="com.example.fitfrenzy.ui.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home">
         <action
@@ -37,7 +37,7 @@
     </fragment>
     <fragment
         android:id="@+id/exerciseFragment"
-        android:name="com.anibalventura.t7minutesworkout.ui.ExerciseFragment"
+        android:name="com.example.fitfrenzy.ui.ExerciseFragment"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_exercise">
         <action
@@ -49,7 +49,7 @@
     </fragment>
     <fragment
         android:id="@+id/exerciseOverFragment"
-        android:name="com.anibalventura.t7minutesworkout.ui.ExerciseOverFragment"
+        android:name="com.example.fitfrenzy.ui.ExerciseOverFragment"
         android:label="@string/app_name"
         tools:layout="@layout/fragment_exercise_over">
         <action
@@ -63,12 +63,12 @@
     </fragment>
     <fragment
         android:id="@+id/bmiFragment"
-        android:name="com.anibalventura.t7minutesworkout.ui.BmiFragment"
+        android:name="com.example.fitfrenzy.ui.BmiFragment"
         android:label="@string/bmi_calculator"
         tools:layout="@layout/fragment_bmi" />
     <fragment
         android:id="@+id/historyFragment"
-        android:name="com.anibalventura.t7minutesworkout.ui.HistoryFragment"
+        android:name="com.example.fitfrenzy.ui.HistoryFragment"
         android:label="@string/history"
         tools:layout="@layout/fragment_history" />
 </navigation>
